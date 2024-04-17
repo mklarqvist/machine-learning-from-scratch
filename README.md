@@ -17,7 +17,7 @@ This repository contains a collection of Jupyter notebooks focusing on the under
     * Using stochastic gradient descent and mini-batch stochastic gradient descent to train the model
     * Introduction to higher-order optimization methods exemplified by Newton's method
 
-* [Regularization and the bias-variance trade-off (part 1)](https://mdrk.io/regularization-in-machine-learning-part1/) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mklarqvist/machine-learning-from-scratch/regularization/regularization.ipynb)
+* [Regularization and the bias-variance trade-off (part 1)](https://mdrk.io/regularization-in-machine-learning-part1/) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mklarqvist/machine-learning-from-scratch/blob/main/regularization/regularization.ipynb)
     * Understanding overfitting and underfitting, and the bias-variance trade-off
     * Introducing the train-test split
     * How to add a L2 penalty term to our linear regression model to constrain the model to generalize better to unseen data
