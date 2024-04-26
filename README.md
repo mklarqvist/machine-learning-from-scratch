@@ -37,20 +37,35 @@ This repository contains a collection of Jupyter notebooks focusing on the under
     * Optimizing our model fit: Using gradient descent to train the model using these manually computed partial derivative equations
     * Using stochastic gradient descent and mini-batch stochastic gradient descent to train the model
 
-* [Optional: Automatic differentiation (part 1)](https://mdrk.io/introduction-to-automatic-differentiation/)
+* [Automatic differentiation (part 1)](https://mdrk.io/introduction-to-automatic-differentiation/)
     * Introducing dual numbers, their relationship to the derivative, and why they are important
     * A brief overview of the two main automatic differentation approaches
     * Implementing an automatic differentation program in Python from scratch
     * Verifying that the results are correct
     * Highlighting the pros and cons of the two main autodifferentiation approaches
 
-* [Optional: Automatic differentiation (part 2)](https://mdrk.io/introduction-to-automatic-differentiation-part2/)
+* [Automatic differentiation (part 2)](https://mdrk.io/introduction-to-automatic-differentiation-part2/)
     * First we will revisit forward-mode automatic differentiation and look at function compositions and the chain rule
     * Breaking down the sequence of elementary operations into lists
     * Visualizing these lists graphically
     * Implementing these changes in Python from scratch
     * Introducing reverse-mode autodiff and an example
     * Implementing reverse-mode autodiff in Python from scratch
+
+* [Optimizers in Deep Learning](https://mdrk.io/optimizers-in-deep-learning/) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mklarqvist/machine-learning-from-scratch/blob/main/optimization/optimizer_plots.ipynb)
+    * Covers several optimizers with math, intuition, and implementations from scratch in Python
+    * SGD with Momentum
+    * SGD with Nesterov Accelerated Gradient
+    * Adam
+    * RMSprop
+    * Adagrad
+    * Adadelta
+    * Adamax
+    * Nadam
+    * AdamW
+
+* [Interesting Functions for Testing Optimization Methods](https://mdrk.io/interesting-functions-to-optimize/) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mklarqvist/machine-learning-from-scratch/blob/main/optimization/loss_surfaces.ipynb)
+    * A series of interesting 2D functions to test optimize
 
 * Stepping into the world of neural networks
     * What is a neural network?
